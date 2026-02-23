@@ -1,0 +1,4 @@
+mlruns/
+data/predictions_log.csv
+__pycache__/
+.env
