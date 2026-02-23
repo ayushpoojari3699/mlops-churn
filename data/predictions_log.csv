@@ -1,0 +1,10 @@
+tenure,MonthlyCharges,TotalCharges,Contract,InternetService,PaymentMethod,prediction,probability,timestamp
+2,89.9,179.8,Month-to-month,Fiber optic,Electronic check,1,0.7533333333333333,2026-02-22T11:51:17.570578
+5,70.5,350.2,One year,DSL,Credit card (automatic),0,0.2733333333333333,2026-02-22T15:36:28.420653
+4,1000.0,10000.0,string,string,string,1,0.31666666666666665,2026-02-22T15:55:45.184663
+5,70.5,350.2,One year,DSL,Credit card (automatic),0,0.2733333333333333,2026-02-22T16:00:16.432790
+18,70.0,350.0,Month-to-month,Fiber optic,Electronic check,1,0.51,2026-02-23T06:25:08.702138
+41,70.0,350.0,Month-to-month,Fiber optic,Electronic check,1,0.6266666666666667,2026-02-23T06:25:25.767083
+41,70.0,350.0,Two year,Fiber optic,Electronic check,0,0.08666666666666667,2026-02-23T06:27:24.410207
+41,70.0,350.0,Two year,Fiber optic,Bank transfer (automatic),0,0.07333333333333333,2026-02-23T06:27:31.946107
+25,70.0,350.0,One year,Fiber optic,Bank transfer (automatic),0,0.14333333333333334,2026-02-23T06:27:42.386741

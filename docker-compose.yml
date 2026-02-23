@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: api/Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./models:/app/models
+
+  trainer:
+    build:
+      context: .
+      dockerfile: src/Dockerfile
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
+
+  monitor:
+    build:
+      context: .
+      dockerfile: src/Dockerfile.monitor
+    volumes:
+      - ./models:/app/models
+      - ./data:/app/data
